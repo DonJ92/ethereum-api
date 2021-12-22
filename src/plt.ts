@@ -1,7 +1,7 @@
 import axios, { AxiosInstance } from "axios";
 import { convertHexToString, convertStringToNumber } from "./bignumber";
 
-const apiUrl = "https://b.hashsuite.link:22000/v1/";
+const apiUrl = "https://stag.palettescan.com/v1/";
 
 export const pltGetAccountBalance =async (address: string): Promise<number> => {
     const url = `${apiUrl}/pltholderinfo`;
